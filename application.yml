@@ -1,0 +1,25 @@
+spring:
+  jpa:
+    generate-ddl: true
+  sleuth:
+    sampler:
+      percentage: 1.0
+    log:
+      json:
+        enabled: true
+
+info:
+  id: ${spring.application.name}
+
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+endpoints:
+  shutdown:
+    enabled: true

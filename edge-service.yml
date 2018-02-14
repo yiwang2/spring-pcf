@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:8086}
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+# Misc
+defaultcoffee: "Black as my Soul"
