@@ -8,3 +8,7 @@ security:
 management:
   security:
     enabled: false
+ 
+ 
+# default value
+coffee: "lattee"
