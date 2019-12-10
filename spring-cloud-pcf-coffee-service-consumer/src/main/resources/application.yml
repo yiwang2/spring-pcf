@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: coffee-service-consumer
+    
+feign.hystrix.enabled: true
